@@ -228,6 +228,10 @@ class Query:
                     any* class_ancestor='{name}' any*
                 |
                     arglist< any* class_ancestor='{name}' any* >
+                |
+                    any* class_ancestor=power<
+                        {power_name}
+                    > any*
                 )
                 any*
                 suite<
